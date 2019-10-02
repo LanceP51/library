@@ -1,0 +1,125 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Into the Wind",
+      "sku": "123456789",
+      "author": "James Wright",
+      "libraryId": 1,
+      "coverPhoto": "https://kali.training/wp-content/uploads/2017/06/kali-linux-revealed-book-mock-3.png",
+      "archived": false
+    },
+    {
+      "id": 2,
+      "title": "Snowshoe",
+      "sku": "987654321",
+      "author": "Johnboyn Wright",
+      "libraryId": 1,
+      "coverPhoto": "https://www.thesecret.tv/wp-content/uploads/2015/04/the-magic-book-cover-img.png",
+      "archived": false
+    },
+    {
+      "id": 3,
+      "title": "To Take a Swim",
+      "sku": "147258369",
+      "author": "Jimmy Wright",
+      "libraryId": 1,
+      "coverPhoto": "https://financialfreedombook.com/wp-content/uploads/2018/06/Financial-Freedom-Book.png",
+      "archived": false
+    },
+    {
+      "title": "Business Book of 2019",
+      "sku": "1231-1198-1154-7189",
+      "author": "James Johnson",
+      "libraryId": 2,
+      "coverPhoto": "https://www.ft.com/__origami/service/image/v2/images/raw/http://prod-upp-image-read.ft.com/429941bc-56df-11e9-8b71-f5b0066105fe?source=next&fit=scale-down&quality=highest&width=1067",
+      "archived": true,
+      "id": 4
+    },
+    {
+      "title": "The inchworm",
+      "sku": "7584-8926-8913-9875",
+      "author": "Mr. Inchy",
+      "libraryId": 2,
+      "coverPhoto": "https://spsy6.files.wordpress.com/2015/09/bookworm.jpg",
+      "archived": false,
+      "id": 5
+    }
+  ],
+  "patrons": [
+    {
+      "id": 1,
+      "name": "Daryl",
+      "cardNumber": "1234-5678-9954-6213",
+      "contact": "304-456-7896",
+      "archived": false,
+      "libraryId": 1,
+    },
+    {
+      "id": 2,
+      "name": "Johnny",
+      "cardNumber": "6543-1254-9856-7548",
+      "contact": "304-456-7896",
+      "archived": false,
+      "libraryId": 1,
+    },
+    {
+      "id": 3,
+      "name": "Zack",
+      "cardNumber": "9467-5865-2341-5268",
+      "contact": "304-456-7896",
+      "archived": false,
+      "libraryId": 2
+    },
+    {
+      "id": 4,
+      "name": "Lenny",
+      "cardNumber": "7845-8926-9875",
+      "contact": "1-304-895-7846",
+      "libraryId": 2,
+      "archived": true
+    }
+  ],
+  "patronBooks": [
+    {
+      "id": 1,
+      "patronId": 2,
+      "bookId": 1,
+      "dueDate": "10/15/2019",
+      "returned": true
+    },
+    {
+      "id": 2,
+      "patronId": 3,
+      "bookId": 2,
+      "dueDate": "11/1/2019",
+      "returned": false
+    },
+    {
+      "id": 3,
+      "patronId": 4,
+      "bookId": 3,
+      "dueDate": "10/14/2019",
+      "returned": true
+    },
+    {
+      "id": 4,
+      "patronId": 1,
+      "bookId": 4,
+      "dueDate": "11/11/2019",
+      "returned": false
+    }
+  ],
+  "library":[
+    {
+      "id":1,
+      "libraryName": "Montrose",
+      "password": "library1"
+    },
+    {
+      "id":2,
+      "libraryName": "Eastside",
+      "password": "library2"
+    }
+  ]
+}

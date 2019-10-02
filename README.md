@@ -1,3 +1,6 @@
+<!-- need to make join table in json and display info in book details  -->
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
